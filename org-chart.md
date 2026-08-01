@@ -36,6 +36,4 @@ Service Desk (T1)    Service Desk (T1)  Jr. IT Support Technician (T1)
 | Lucas Bianchi | Desktop Support Technician | 2 | On-site hardware support, imaging, escalations from T1 |
 | Amanda Rodriguez | Service Desk Analyst | 1 | Ticket intake, triage, first-line resolution |
 | Kevin Park | Service Desk Analyst | 1 | Ticket intake, triage, first-line resolution |
-| **[Your Name]** | **Jr. IT Support Technician** | **1** | **Ticket intake, account/password resets, basic troubleshooting, KB documentation** |
-
-> Replace `[Your Name]` with your own name — this is the role you'll be "playing" throughout the tickets in this portfolio.
+| **[Stephanie Cho]** | **Jr. IT Support Technician** | **1** | **Ticket intake, account/password resets, basic troubleshooting, KB documentation** |
