@@ -9,13 +9,24 @@ This repository simulates the day-to-day IT Support operations of a mid-sized To
 ## Repository Structure
 
 ```
-phoenix-corporation/
+lumensystem/
 ├── README.md                  # This file
 ├── company-profile.md         # Company background & IT environment
 ├── org-chart.md               # IT department structure (10 employees)
+├── assets/
+│   └── asset-inventory.md     # Hardware asset lifecycle tracking
+├── employees/
+│   └── employee-directory.md  # Company-wide employee directory
+├── network/
+│   └── network-diagram.md     # Network topology (Mermaid diagram)
 ├── policies/                  # Sample IT policies
 │   ├── acceptable-use-policy.md
 │   └── password-policy.md
+├── sop/                        # Standard Operating Procedures
+│   ├── SOP-001-new-hire-onboarding.md
+│   ├── SOP-002-vpn-account-provisioning.md
+│   ├── SOP-003-offboarding.md
+│   └── SOP-004-password-reset.md
 ├── templates/
 │   └── ticket-template.md     # Standard ticket format used across all tickets
 ├── tickets/                   # Resolved support tickets, organized by category
