@@ -19,7 +19,7 @@ Lucas Bianchi   (Tier 2 Desktop Support)
         │
  ┌──────┴───────────────┬──────────────────┐
  │                       │                  │
-Amanda Rodriguez     Kevin Park         [Your Name]
+Amanda Rodriguez     Kevin Park         Stephanie Cho 
 Service Desk (T1)    Service Desk (T1)  Jr. IT Support Technician (T1)
 ```
 
