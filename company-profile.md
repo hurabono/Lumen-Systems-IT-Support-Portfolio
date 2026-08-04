@@ -19,7 +19,7 @@ Lumen Systems designs and distributes commercial packaging equipment to clients 
 
 | Category | Tools / Systems |
 |---|---|
-| Ticketing System | Freshservice |
+| Ticketing System | Jira |
 | Identity & Access | Microsoft Entra ID (Azure AD), Active Directory (on-prem, hybrid join) |
 | Productivity Suite | Microsoft 365 (Outlook, Teams, SharePoint, OneDrive) |
 | Endpoint Management | Microsoft Intune |
