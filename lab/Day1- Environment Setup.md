@@ -36,7 +36,7 @@ By the end of this session, I completed:
 
 ## Step 1 — Install VMware Workstation
 
-`[스크린샷 삽입 위치]`
+![VMware Installation](./screenshots/day1/Screenshot%202026-08-05%20140247.png)
 
 **What I learned:**
 - VMware is a Type-2 Hypervisor — it runs on top of an existing host OS rather than directly on hardware.
@@ -47,7 +47,7 @@ By the end of this session, I completed:
 
 ## Step 2 — Install Windows Server 2025
 
-`[스크린샷 삽입 위치]`
+![VMware Installation](./screenshots/day1/Screenshot%202026-08-05%20141658.png)
 
 **Notes:**
 Instead of using Easy Install, I manually configured each setting one by one:
@@ -64,7 +64,7 @@ This helped me understand how virtual hardware is actually allocated to a VM, ra
 
 ## Step 3 — Install VMware Tools
 
-`[스크린샷 삽입 위치]`
+![VMware Installation](./screenshots/day1/Screenshot%202026-08-05%20145432.png)
 
 **Why install VMware Tools?**
 VMware Tools improves the VM in several ways:
@@ -78,7 +78,9 @@ VMware Tools improves the VM in several ways:
 
 ## Step 4 — Rename the Server
 
-`[스크린샷 삽입 위치]`
+![VMware Installation](./screenshots/day1/Screenshot%202026-08-05%20150039.png)
+
+The server was initially named WIN-Q60M6TI1AKG. Before promoting it to a Domain Controller, I renamed it to DC01 to follow enterprise naming conventions.
 
 **Server Name:** `DC01`
 
@@ -99,7 +101,7 @@ Rebooted after the rename to apply the change.
 
 ## Step 5 — Configure Static IP
 
-`[스크린샷 삽입 위치]`
+![VMware Installation](./screenshots/day1/Screenshot%202026-08-05%20150248.png)
 
 **IP Configuration** (checked via `ipconfig`):
 ```
@@ -121,7 +123,7 @@ So: **Static IP = an address that never changes**, which is essential for a Doma
 
 ## Step 6 — Install Active Directory Domain Services (AD DS)
 
-`[스크린샷 삽입 위치]`
+![VMware Installation](./screenshots/day1/Screenshot%202026-08-05%20151844.png)
 
 **Installed Role:** Active Directory Domain Services (AD DS)
 
@@ -132,7 +134,7 @@ AD DS provides centralized authentication and management for users, computers, a
 
 ## Step 7 — Create the Forest
 
-`[스크린샷 삽입 위치]`
+![VMware Installation](./screenshots/day1/Screenshot%202026-08-05%20153324.png)
 
 **Forest Name:** `lumen.local`
 
@@ -143,9 +145,11 @@ A forest is the highest-level logical container in Active Directory — it's the
 
 ## Step 8 — Promote to Domain Controller
 
-`[스크린샷 삽입 위치]`
+![VMware Installation](./screenshots/day1/Screenshot%202026-08-05%20154124.png)
 
 **Result:** Successfully promoted the server to a Domain Controller.
+
+**Note:** In Server Manager, the Active Directory tools are not visible immediately after installing Windows Server. They appear only after the server has been successfully promoted to a Domain Controller. Once the promotion process is complete and the server reboots, the Active Directory management tools become available under the Tools menu.
 
 After reboot:
 - **Server Name:** DC01
