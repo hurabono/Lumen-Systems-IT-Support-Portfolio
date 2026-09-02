@@ -3,7 +3,7 @@
 **Ticket:** LUM-3 · Lumen Systems IT Service Desk </br>
 **Date:** 2026-08-25 </br>
 **Category:** Group Policy / GPO Scope </br>
-**Environment:** Windows Server 2022 (DC01), Windows 11 (CLIENT01), domain `LUMEN.LOCAL` </br>
+**Environment:** Windows Server 2025 (DC01), Windows 11 (CLIENT01), domain `LUMEN.LOCAL` </br>
 **Root cause:** Account provisioning error. The user object sat outside the OU the GPO was linked to. </br>
 
 ---
