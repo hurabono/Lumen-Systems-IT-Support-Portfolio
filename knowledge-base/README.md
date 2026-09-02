@@ -42,4 +42,9 @@ Any edge cases, related tickets, or escalation path if steps don't resolve the i
 
 ## Sample Articles
 
-- (Add articles here as you write tickets — link each one back to the ticket(s) that prompted it.)
+## Articles
+
+| ID | Title | Category |
+|---|---|---|
+| [KB-001](./articles/KB-001-mapped-drive-missing-unc-works.md) | Mapped drive is missing but the UNC path opens | Account & Access / Group Policy |
+| [KB-002](./articles/KB-002-account-lockout-unlock-and-verify.md) | Unlocking a locked AD account and confirming it stays unlocked | Account & Access |
