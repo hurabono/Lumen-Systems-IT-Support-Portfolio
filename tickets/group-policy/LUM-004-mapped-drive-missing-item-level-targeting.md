@@ -1,9 +1,9 @@
 ## The GPO Applied, But the Drive Never Mapped
 
-**Ticket:** LUM-4 · Lumen Systems IT Service Desk 
-**Date:** 2026-08-26
- **Category:** Active Directory / Group Policy Preferences 
- **Environment:** Windows Server 2025 (DC01), Windows 11 (CLIENT01), domain `LUMEN.LOCAL`
+**Ticket:** LUM-4 · Lumen Systems IT Service Desk </br>
+**Date:** 2026-08-26 </br>
+ **Category:** Active Directory / Group Policy Preferences </br>
+ **Environment:** Windows Server 2025 (DC01), Windows 11 (CLIENT01), domain `LUMEN.LOCAL` </br>
 
 ----------
 
