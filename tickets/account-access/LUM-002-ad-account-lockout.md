@@ -3,7 +3,7 @@
 **Ticket:** LUM-2 · Lumen Systems IT Service Desk  
 **Date:** 2026-08-24  
 **Category:** Active Directory / Account Lockout  
-**Environment:** Windows Server 2022 (DC01), Windows 11 (CLIENT01), domain `LUMEN.LOCAL`
+**Environment:** Windows Server 2025 (DC01), Windows 11 (CLIENT01), domain `LUMEN.LOCAL`
 
 ---
 
