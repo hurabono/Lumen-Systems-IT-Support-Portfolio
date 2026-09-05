@@ -30,7 +30,7 @@ Full build notes: [lab/Day1-environment-setup.md](./lab/Day1-environment-setup.m
 | [LUM-002](./tickets/account-access/LUM-002-ad-account-lockout.md) | User locked out and cannot sign back in | Active Directory | Event 4740 vs 4771, `auditpol` subcategories, identity verification before unlocking, 20-minute recurrence check |
 | [LUM-003](./tickets/group-policy/LUM-003-gpo-not-applying-ou-scope.md) | Department GPO reaches one user but not another | Group Policy | `gpresult /r /scope:user`, comparing against a working peer, user object located outside the linked OU |
 | [LUM-004](./tickets/group-policy/LUM-004-mapped-drive-missing-item-level-targeting.md) | Mapped drive missing although the UNC path opens fine | Group Policy Preferences | GPO delivery vs preference execution, item-level targeting, why `gpupdate /force` does not rebuild an access token |
-
+| [LUM-005](./tickets/employee-lifecycle/LUM-005-new-hire-onboarding.md) | New hire starts Monday and needs access ready before 9 AM | Active Directory / Onboarding | Account creation in the correct OU, department security group instead of per-user ACLs, home folder and share access, first sign-in tested on a domain-joined client before handover |
 ## Knowledge Base
 
 Written after resolving tickets, so the same problem does not have to be solved from scratch twice.
@@ -63,6 +63,7 @@ Lumen-Systems-IT-Support-Portfolio/
 ├── tickets/
 │   ├── account-access/
 │   └── group-policy/
+│   └── employee-lifecycle/
 ├── knowledge-base/
 │   ├── README.md
 │   └── articles/
