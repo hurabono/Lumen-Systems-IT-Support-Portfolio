@@ -23,6 +23,19 @@ Build notes: [../lab/Day1-environment-setup.md](../lab/Day1-environment-setup.md
 | [LUM-003](./group-policy/LUM-003-gpo-not-applying-ou-scope.md) | A department GPO reaches one user but not their teammate | `gpresult /r /scope:user` · side-by-side comparison with a working account · user object sitting outside the linked OU |
 | [LUM-004](./group-policy/LUM-004-mapped-drive-missing-item-level-targeting.md) | Mapped drive is missing although the UNC path opens fine | GPO delivery vs preference execution · item-level targeting · why `gpupdate /force` does not rebuild an access token |
 
+### Employee Lifecycle
+
+| ID | Issue | What it demonstrates |
+|---|---|---|
+| [LUM-005](./employee-lifecycle/LUM-005-new-employee-onboarding.md) | New hire needs an account, group access and a working desktop on day one | Provisioning against a request form rather than assumptions · OU placement driving GPO scope · reading the domain's real password policy instead of the Windows default · verifying access without logging in as the user |
+| [LUM-006](./employee-lifecycle/LUM-006-employee-offboarding.md) | Contract employee leaves and their access has to be closed out | Disable before delete · password reset and group removal as separate revocation layers · Kerberos tickets outliving a disabled account · retention period documented rather than assumed |
+
+### Networking
+
+| ID | Issue | What it demonstrates |
+|---|---|---|
+| [LUM-007](./networking/LUM-007-dns-name-resolution-failure.md) | Internet and the mapped drive work, but the server's full name will not resolve | Isolating name resolution from connectivity · `nslookup` against a specific server to separate client fault from server fault · AD SRV records under `_msdcs` · single-label fallback (mDNS / LLMNR / NetBIOS) masking a DNS failure · `gpresult` reporting cache while `gpupdate` reports reality |
+
 ---
 
 ## Method
@@ -40,6 +53,8 @@ Every ticket here follows the same sequence.
 ## On the dead ends
 
 Wrong turns are left in rather than edited out. In LUM-001 I queried a share that did not exist because I had assumed the file server was split by department. The command failed, and that failure is what gave me an accurate picture of the structure.
+
+LUM-007 went further and left in the checks that came back healthy while the fault was still live. Three of them did. Treating those as evidence of a working system would have sent the whole investigation somewhere else, so they are recorded as part of the diagnosis rather than trimmed out of it.
 
 A write-up where everything worked first try teaches nobody anything, including me.
 
