@@ -27,7 +27,7 @@ Build notes: [../lab/Day1-environment-setup.md](../lab/Day1-environment-setup.md
 
 | ID | Issue | What it demonstrates |
 |---|---|---|
-| [LUM-005](./employee-lifecycle/LUM-005-new-employee-onboarding.md) | New hire needs an account, group access and a working desktop on day one | Provisioning against a request form rather than assumptions · OU placement driving GPO scope · reading the domain's real password policy instead of the Windows default · verifying access without logging in as the user |
+| [LUM-005](./employee-lifecycle/LUM005-account-onboarding.md) | New hire needs an account, group access and a working desktop on day one | Provisioning against a request form rather than assumptions · OU placement driving GPO scope · reading the domain's real password policy instead of the Windows default · verifying access without logging in as the user |
 | [LUM-006](./employee-lifecycle/LUM-006-employee-offboarding.md) | Contract employee leaves and their access has to be closed out | Disable before delete · password reset and group removal as separate revocation layers · Kerberos tickets outliving a disabled account · retention period documented rather than assumed |
 
 ### Networking
