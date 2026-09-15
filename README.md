@@ -3,7 +3,7 @@
 > **Disclaimer:** Lumen Systems is a fictional company created for portfolio purposes only. All employees, tickets, and scenarios in this repository are simulated to demonstrate real-world IT support workflows, troubleshooting methodology, and documentation practices. No real company data is used.
 
 ## Purpose
-
+![lumen system readme banner](https://ik.imagekit.io/stephanie/git-thum/banner.png)
 This repository simulates the day-to-day IT Support operations of a mid-sized Toronto-based company. I built the environment myself and run it as a real queue: users raise tickets through a Jira Service Management portal form, and I work each one end to end as the service desk agent. Reproduce the symptom, narrow the scope, form and test a hypothesis, verify the diagnosis before changing anything, then confirm the fix and check for recurrence.
 
 Dead ends are documented rather than edited out, because the wrong turns are usually where the useful reasoning lives.
